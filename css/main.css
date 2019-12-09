@@ -1,0 +1,218 @@
+/* FONTS & COLORS
+
+font-family: 'Philosopher', sans-serif;
+font-family: 'Muli', sans-serif;
+
+Backgrounds
+#EDFFF7
+#B2BFB9
+
+Font COLORS
+#3B403E
+#519199
+
+*/
+/* BODY */
+body{
+  font-family: 'Muli', sans-serif;
+  width: 100%;
+}
+
+#about {
+  height: 300px;
+}
+
+#portfolio, #contact{
+  height: 500px;
+}
+
+.full-width{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 50%;
+  float: left;
+}
+
+.third-width{
+  width:33%;
+  float:left;
+}
+
+h1, h2, h3{
+  font-family: 'Philosopher', sans-serif;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  text-transform: capitalize;
+  font-size:36px;
+}
+
+h3{
+  color: #519199;
+}
+
+p{
+  font-size: 20px;
+}
+
+/*HEADER*/
+header{
+  height: 400px;
+  background: #f0f0f0;
+}
+
+header h1, header h2{
+  padding: 55px 0 0 20px;
+}
+
+header h1 span,
+header h2 span{
+  color: #519199;
+}
+
+.header-logo {
+  width: 70%;
+  height: auto;
+  padding: 20px 25px;
+}
+
+nav{
+  float: right;
+  padding: 20px 25px;
+}
+
+nav ul li{
+  display:inline-block;
+}
+
+nav ul li a{
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  color:#3B403E;
+  padding-left: 24px;
+}
+
+nav a:hover{
+  color:#FFADB0;
+}
+
+/*ABOUT*/
+#about{
+  background: #519199;
+  color:#EDFFF7;
+  text-align: center;
+  padding: 40px 150px;
+}
+
+#about h2{
+  font-size: 36px;
+  text-transform: capitalize;
+  color:#FFADB0;
+}
+
+#about img{
+  max-width: 200px;
+  max-height: 200px;
+  border: 5px solid #FFADB0;
+}
+
+#about p{
+  padding-top: 20px;
+}
+
+/*PORTFOLIO*/
+#portfolio{
+  background: #f0f0f0;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#portfolio img{
+  height: 200px;
+  border: 1px solid #FFADB0;
+}
+
+#portfolio p{
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#portfolio p a{
+  text-decoration: none;
+  color:#000000;
+}
+
+#portfolio p a:hover{
+  color:#FFADB0;
+}
+
+/*CONTACT*/
+#contact{
+  background: #519199;
+  text-align: center;
+  padding: 40px 10px;
+  height: 300px;
+  color:#EDFFF7;
+}
+
+#contact h2, #contact h3{
+  color:#FFADB0;
+}
+
+#contact a{
+  font-size: 20px;
+  text-decoration: none;
+  color:#EDFFF7;
+}
+
+#contact a:hover{
+  color:#FFADB0;
+}
+
+#contact ul{
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+  color:#EDFFF7;
+}
+
+#contact ul i{
+  padding-right: 30px;
+}
+
+/*TRAVELS*/
+#travels{
+  height: 650px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#travels{
+  list-style: none;
+}
+
+#travels ul li{
+  display: inline-block;
+}
+
+#travels img{
+  height: 275px;
+  width:275px;
+  border: 3px solid #FFADB0;
+  margin: 5px;
+}
+
+#travels .rotate{
+  transform: rotate(90deg);
+}
